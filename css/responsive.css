@@ -1,0 +1,948 @@
+/* From Laptop To Ipad Landscape */
+@media all and (max-width:1280px) and (min-width:1025px){
+	
+	/* Dashboard Screen Styles */
+	
+	.primary-nav.hidden {
+    	width: 90px;
+	}
+	.primary-nav ul li a {
+    	padding: 10px 0 10px 12%;
+	}
+	.primary-sidebar.hidden {
+		width: 10%;
+	}
+	.primary-nav.hidden ul li.active a span.notify-bubble {
+		left: 55px;
+	}
+	.dashboard-conatainer.hidden {
+		width: 90%;
+	}
+	
+	
+	/* Dashboard Screen Styles */
+	
+	/*Performance Screen Styles */
+	.pf-content-wrap .account-infograph {
+		padding: 0 2% 0;
+    }
+	/*Performance Screen Styles */
+}
+/* From Ipad Landscape To Ipad Portrait */
+@media all and (max-width:1024px) and (min-width:769px){
+	
+	/* Dashboard Screen Styles */
+	
+	.primary-nav.hidden {
+    	width: 80px;
+	}
+	.primary-nav ul li a {
+    	padding: 10px 0 10px 9%;
+	}
+	.primary-sidebar.hidden {
+		width: 10%;
+		position: relative;
+	}
+	.primary-nav.hidden ul li.active a span.notify-bubble {
+		left: 45px;
+	}
+	.primary-sidebar.hidden{
+		box-shadow:none;
+	}
+	.primary-sidebar {
+		width: 29.9%;
+		position: fixed;
+		overflow-y:scroll;
+		left: 0;
+		background-color: #fff;
+		z-index: 1;
+		box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.2);
+	}
+	.dashboard-conatainer.hidden {
+		width: 90%;
+	}
+	.dashboard-conatainer{
+		width: 100%;
+	}
+	
+	.logo.hidden .close-btn {
+		display:none;
+	}
+	.close-btn {
+		background: url(../img/icon-sprite.png) no-repeat scroll 0 -600px transparent;
+		display: inline-block;
+		width: 24px;
+		height: 24px;
+		float: right;
+		margin-top: 11px;
+		cursor: pointer;
+	}
+	.db-content-view {
+    	width: 70%;
+	}
+	.secondary-sidebar {
+   		width: 30%;
+	}
+	/* Dashboard Screen Styles */
+	
+	/*Performance Screen Styles */
+	.pf-content-wrap .account-infograph {
+		padding: 0 2% 0;
+    }
+	table {
+		border: 0;
+	}
+	thead {
+    	display: none;
+	}
+	tr {
+    	margin-bottom: 62px;
+		float: left;
+	}
+	td.mob-table-head {
+		content: '';
+		float: left;
+		font-size: 18px;
+		color: #727272;
+		font-family: 'ProximaNova-Semibold';
+		width: 100%;
+		background-color: #f5f5f5;
+		padding: 20px;
+		text-align: left;
+		border: 0;
+	}
+	td {
+    	padding: 22px 0 19px 20px;
+		text-align: right;
+		border-right: 0;
+		border-top: 0;
+		border-bottom: 1px solid #dfdfdf;
+		float: left;
+		width: 100%;
+	}
+	td:last-child {
+    	border-bottom: 0;
+	}
+	.mob-th {
+    	display: block;
+    	float: left;
+		font-family: 'ProximaNova-Semibold';
+	}
+	.pf-content-wrap .db-content-view {
+		width: 75%;
+	}
+	.pf-content-wrap .secondary-sidebar {
+		width: 25%;
+	}
+	/*Performance Screen Styles */
+}
+
+/* From Ipad Portrait To Mobile Landscape */
+@media all and (max-width:768px) and (min-width:737px){
+	
+	/* Dashboard Screen Styles */
+	
+	.primary-nav.hidden {
+    	width: 80px;
+	}
+	.primary-nav ul li a {
+    	padding: 10px 0 10px 9%;
+	}
+	
+	.primary-nav.hidden ul li.active a span.notify-bubble {
+		left: 45px;
+	}
+	.primary-sidebar.hidden{
+		width: 0;
+		visibility: hidden;
+	}
+	.primary-sidebar {
+		width: 50%;
+		position: fixed;
+		overflow-y:scroll;
+		left: 0;
+		background-color: #fff;
+		z-index: 1;
+		box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.2);
+		visibility: visible;
+	}
+	.stats-col h3 {
+		font-size: 14px;
+	}
+	.dashboard-conatainer{
+		width: 100% !important;
+	}
+	.logo.hidden .close-btn {
+		display:none;
+	}
+	.close-btn {
+		background: url(../img/icon-sprite.png) no-repeat scroll 0 -600px transparent;
+		display: inline-block;
+		width: 24px;
+		height: 24px;
+		float: right;
+		margin-top: 11px;
+		cursor: pointer;
+	}
+	.ss-content nav ul li a {
+		font-size: 14px;
+	}
+	.db-content-view {
+    	width: 75%;
+		border-left: 0 none;
+	}
+	.stats-col-wrap {
+		margin: 0;
+	}
+	.stats-col {
+		width: 30%;
+	}
+	.ac-wrap .chart {
+		width: 100%;
+		margin: 0 0 50px;
+	}
+	.secondary-sidebar {
+   		width: 25%;
+	}
+	
+	/* Dashboard Screen Styles */
+	
+	/*Performance Screen Styles */
+	.cpm-menu-wrap {
+		padding: 43px 25px 45px;
+	}
+	.pf-content-wrap .infograph-labels {
+    	float: left;
+    	clear: left;
+    	padding-top: 30px;
+	}
+	.bs-graph h2 {
+		padding-bottom: 10px;
+	}
+	.bs-stats-detail .chart {
+    	width: 100%;
+	}
+	.bs-stats-detail span {
+		float: left;
+		font-size: 22px;
+	}
+	.pf-content-wrap .account-infograph {
+		padding: 0 2% 0;
+    }
+	table {
+		border: 0;
+	}
+	thead {
+    	display: none;
+	}
+	tr {
+    	margin-bottom: 62px;
+		float: left;
+	}
+	td.mob-table-head {
+		content: '';
+		float: left;
+		font-size: 18px;
+		color: #727272;
+		font-family: 'ProximaNova-Semibold';
+		width: 100%;
+		background-color: #f5f5f5;
+		padding: 20px;
+		text-align: left;
+		border: 0;
+	}
+	td {
+    	padding: 22px 0 19px 20px;
+		text-align: right;
+		border-right: 0;
+		border-top: 0;
+		border-bottom: 1px solid #dfdfdf;
+		float: left;
+		width: 100%;
+	}
+	td:last-child {
+    	border-bottom: 0;
+	}
+	.mob-th {
+    	display: block;
+    	float: left;
+		font-family: 'ProximaNova-Semibold';
+	}
+	.pf-content-wrap .db-content-view {
+		width: 70%;
+	}
+	.pf-content-wrap .secondary-sidebar {
+		width: 30%;
+	}
+	/*Performance Screen Styles */
+	
+}
+
+/* Mobile Landscape */
+@media all and (max-width:736px) and (min-width:481px){
+	
+	/* Dashboard Screen Styles */
+	.primary-nav.hidden {
+    	width: 80px;
+	}
+	.primary-nav ul li a {
+    	padding: 10px 0 10px 9%;
+	}
+	
+	.primary-nav.hidden ul li.active a span.notify-bubble {
+		left: 45px;
+	}
+	.primary-sidebar.hidden{
+		width: 0;
+		visibility: hidden;
+	}
+	.primary-sidebar {
+		width: 50%;
+		position: fixed;
+		overflow-y:scroll;
+		left: 0;
+		background-color: #fff;
+		z-index: 1;
+		box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.2);
+		visibility: visible;
+	}
+	
+	.dashboard-conatainer{
+		width: 100% !important;
+	}
+	.db-content-wrapper {
+		height: auto;
+	}
+	db-content-view {
+		height: 100%;
+	}
+	.logo.hidden .close-btn {
+		display:none;
+	}
+	.close-btn {
+		background: url(../img/icon-sprite.png) no-repeat scroll 0 -600px transparent;
+		display: inline-block;
+		width: 24px;
+		height: 24px;
+		float: right;
+		margin-top: 11px;
+		cursor: pointer;
+	}
+	
+	.db-content-view {
+    	width: 100%;
+		border: 0 none;
+	}
+	.account-stats {
+		padding: 38px 80px 0;
+	}
+	.account-stats h2 {
+		font-size: 32px;
+	}
+	.db-header-wrap h1 {
+		font-size: 32px;
+	}
+	.stats-col-wrap {
+		margin: 0;
+	}
+	.stats-col {
+		width: 100%;
+		display: block;
+		padding: 0 0 60px;
+		border-bottom: 1px solid #dfdfdf;
+		margin-bottom: 60px;
+	}
+	.stats-col:last-child{
+		border-bottom: 0;
+		margin:0;
+	}
+	.stats-col span {
+		border-right: 0;
+	}
+	.stats-col {
+		width: 100%;
+		display: block;
+		padding: 0 0 60px;
+		border-bottom: 1px solid #dfdfdf;
+		margin-bottom: 60px;
+	}
+	.btn {
+		top: 0;
+	}
+	.id-wrap, .ac-wrap {
+    	margin: 0 15%;
+	}
+	.ac-wrap .chart {
+		width: 100%;
+		margin: 0 0 50px;
+	}
+	.secondary-sidebar {
+   		width:100%;
+	}
+	.ss-content {
+    	margin: 0 15%;
+	}
+	.infograph-labels {
+		float: left;
+		width: 100%;
+		padding-top: 30px;
+	}
+	/* Dashboard Screen Styles */
+	
+	/*Performance Screen Styles */
+	.cpm-menu-wrap {
+		padding: 43px 25px 45px;
+	}
+	.pf-content-wrap .account-infograph {
+		padding: 0 15px 0;
+    }
+	.pf-content-wrap .infograph-labels {
+    	float: left;
+    	clear: left;
+    	padding-top: 30px;
+	}
+	.bs-graph h2 {
+		padding-bottom: 10px;
+	}
+	.bs-stats-detail .chart {
+    	width: 100%;
+	}
+	.bs-stats-detail span {
+		float: left;
+		font-size: 22px;
+	}
+	.pf-content-wrap .account-infograph {
+		padding: 0 2% 0;
+    }
+	table {
+		border: 0;
+	}
+	thead {
+    	display: none;
+	}
+	tr {
+    	margin-bottom: 62px;
+		float: left;
+	}
+	td.mob-table-head {
+		content: '';
+		float: left;
+		font-size: 18px;
+		color: #727272;
+		font-family: 'ProximaNova-Semibold';
+		width: 100%;
+		background-color: #f5f5f5;
+		padding: 20px;
+		text-align: left;
+		border: 0;
+	}
+	td {
+    	padding: 22px 0 19px 20px;
+		text-align: right;
+		border-right: 0;
+		border-top: 0;
+		border-bottom: 1px solid #dfdfdf;
+		float: left;
+		width: 100%;
+	}
+	td:last-child {
+    	border-bottom: 0;
+	}
+	.mob-th {
+    	display: block;
+    	float: left;
+		font-family: 'ProximaNova-Semibold';
+	}
+	.pf-content-wrap .db-content-view {
+		width: 100%;
+	}
+	.pf-content-wrap .secondary-sidebar {
+		width: 100%;
+	}
+	.pf-content-wrap .secondary-sidebar .ss-content {
+		margin: 0 5%;
+	}
+	.pf-content-wrap .account-charts {
+		padding: 25px 0 0;
+	}
+	.pf-content-wrap .ac-wrap, .pf-content-wrap .id-wrap {
+		margin: 0 5%;
+	}
+	.bs-stats-detail .chart {
+		width: auto;
+	}
+	.bs-stats-detail span {
+		float: right;
+	}
+	.wp-controls {
+		margin-bottom: 30px;
+	}
+	/*Performance Screen Styles */
+	
+}
+
+/* From Mobile Landscape To Portrait */
+@media all and (max-width:480px) and (min-width:415px){
+	
+	/* Dashboard Screen Styles */
+	.primary-nav.hidden {
+    	width: 80px;
+	}
+	.primary-nav ul li a {
+    	padding: 10px 0 10px 9%;
+	}
+	
+	.primary-nav.hidden ul li.active a span.notify-bubble {
+		left: 45px;
+	}
+	.primary-sidebar.hidden{
+		width: 0;
+		visibility: hidden;
+	}
+	.primary-sidebar {
+		width: 70%;
+		position: fixed;
+		overflow-y:scroll;
+		left: 0;
+		background-color: #fff;
+		z-index: 1;
+		box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.2);
+		visibility: visible;
+	}
+	
+	.dashboard-conatainer{
+		width: 100% !important;
+	}
+	.db-content-wrapper {
+		height: auto;
+	}
+	db-content-view {
+		height: 100%;
+	}
+	.logo.hidden .close-btn {
+		display:none;
+	}
+	.close-btn {
+		background: url(../img/icon-sprite.png) no-repeat scroll 0 -600px transparent;
+		display: inline-block;
+		width: 24px;
+		height: 24px;
+		float: right;
+		margin-top: 11px;
+		cursor: pointer;
+	}
+	
+	.db-content-view {
+    	width: 100%;
+		border: 0 none;
+	}
+	.account-stats {
+		padding: 38px 80px 0;
+	}
+	.account-stats h2 {
+		font-size: 32px;
+	}
+	.db-header-wrap h1 {
+		font-size: 32px;
+	}
+	.stats-col-wrap {
+		margin: 0;
+	}
+	.stats-col {
+		width: 100%;
+		display: block;
+		padding: 0 0 60px;
+		border-bottom: 1px solid #dfdfdf;
+		margin-bottom: 60px;
+	}
+	.stats-col:last-child{
+		border-bottom: 0;
+		margin:0;
+	}
+	.stats-col span {
+		border-right: 0;
+	}
+	.stats-col {
+		width: 100%;
+		display: block;
+		padding: 0 0 60px;
+		border-bottom: 1px solid #dfdfdf;
+		margin-bottom: 60px;
+	}
+	.btn {
+		top: 0;
+	}
+	.id-wrap, .ac-wrap {
+    	margin: 0 15%;
+	}
+	.ac-wrap .chart {
+		width: 100%;
+		margin: 0 0 50px;
+	}
+	.secondary-sidebar {
+   		width:100%;
+	}
+	.ss-content {
+    	margin: 0 15%;
+    	padding-bottom: 0;
+	}
+	.infograph-labels {
+		float: left;
+		width: 100%;
+		padding-top: 30px;
+	}
+	/* Dashboard Screen Styles */
+	
+	/*Performance Screen Styles */
+	.cpm-menu-wrap {
+		padding: 43px 25px 45px;
+	}
+	.pf-content-wrap .account-infograph {
+		padding: 0 15px 0;
+    }
+	.pf-content-wrap .infograph-labels {
+    	float: left;
+    	clear: left;
+    	padding-top: 30px;
+	}
+	.bs-graph h2 {
+		padding-bottom: 10px;
+	}
+	.bs-stats-detail .chart {
+    	width: 100%;
+	}
+	.bs-stats-detail span {
+		float: left;
+		font-size: 22px;
+	}
+	.pf-content-wrap .account-infograph {
+		padding: 0 2% 0;
+    }
+	table {
+		border: 0;
+	}
+	thead {
+    	display: none;
+	}
+	tr {
+    	margin-bottom: 62px;
+		float: left;
+	}
+	td.mob-table-head {
+		content: '';
+		float: left;
+		font-size: 18px;
+		color: #727272;
+		font-family: 'ProximaNova-Semibold';
+		width: 100%;
+		background-color: #f5f5f5;
+		padding: 20px;
+		text-align: left;
+		border: 0;
+	}
+	td {
+    	padding: 22px 0 19px 20px;
+		text-align: right;
+		border-right: 0;
+		border-top: 0;
+		border-bottom: 1px solid #dfdfdf;
+		float: left;
+		width: 100%;
+	}
+	td:last-child {
+    	border-bottom: 0;
+	}
+	.mob-th {
+    	display: block;
+    	float: left;
+		font-family: 'ProximaNova-Semibold';
+	}
+	.pf-content-wrap .db-content-view {
+		width: 100%;
+	}
+	.pf-content-wrap .secondary-sidebar {
+		width: 100%;
+	}
+	.pf-content-wrap .secondary-sidebar .ss-content {
+		margin: 0 5%;
+	}
+	.pf-content-wrap .account-charts {
+		padding: 25px 0 0;
+	}
+	.bs-stats-detail .chart {
+		width: auto;
+	}
+	.bs-stats-detail span {
+		float: right;
+	}
+	.pf-content-wrap .ac-wrap, .pf-content-wrap .id-wrap {
+		margin: 0 5%;
+	}
+	/*Performance Screen Styles */
+	
+	/*Funds Transfer Screen Styles */
+	.tm-content-wrap .db-content-view {
+    	padding: 50px 5% 0;
+    	max-width: 100%;
+	}	
+	.withdrawal-amount {
+		margin-bottom: 150px;
+	}
+	.legal-account-opts {
+		padding-bottom: 50px;
+	}
+	.wp-controls {
+		margin-bottom: 30px;
+	}
+	/*Funds Transfer Screen Styles */
+	
+}
+
+/* From Mobile Portrait */
+@media all and (max-width:414px) and (min-width:320px){
+	
+	/* Dashboard Screen Styles */
+	.menu-toggle {
+   		margin-top: 20px;
+	}
+	.dashboard-header {
+		padding: 15px;
+	}
+	.db-header-wrap h1 {
+		font-size: 22px;
+		padding: 18px 0 0 15px;
+	}
+	.primary-nav.hidden {
+    	width: 80px;
+	}
+	.primary-nav ul li a {
+    	padding: 10px 0 10px 9%;
+	}
+	.primary-nav.hidden ul li.active a span.notify-bubble {
+		left: 45px;
+	}
+	.primary-sidebar.hidden{
+		width: 0;
+		visibility: hidden;
+	}
+	.primary-sidebar {
+		width: 90%;
+		position: fixed;
+		overflow-y:scroll;
+		left: 0;
+		background-color: #fff;
+		z-index: 1;
+		box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.2);
+		visibility: visible;
+	}
+	.dashboard-conatainer{
+		width: 100% !important;
+	}
+	.db-content-wrapper {
+		height: auto;
+	}
+	db-content-view {
+		height: 100%;
+	}
+	.logo.hidden .close-btn {
+		display:none;
+	}
+	.close-btn {
+		background: url(../img/icon-sprite.png) no-repeat scroll 0 -600px transparent;
+		display: inline-block;
+		width: 24px;
+		height: 24px;
+		float: right;
+		margin-top: 11px;
+		cursor: pointer;
+	}
+	.db-content-view {
+		border: 0 none;
+    	width: 100%;
+	}
+	.account-stats p {
+		padding-top: 20px;
+	}
+	.account-stats {
+		padding: 38px 50px 0;
+	}
+	.account-stats h2 {
+		font-size: 32px;
+	}
+	.stats-col-wrap {
+		margin: 0;
+	}
+	.stats-col {
+		width: 100%;
+		display: block;
+		padding: 0 0 60px;
+		border-bottom: 1px solid #dfdfdf;
+		margin-bottom: 60px;
+	}
+	.stats-col:last-child{
+		border-bottom: 0;
+		margin:0;
+	}
+	.stats-col span {
+		border-right: 0;
+	}
+	.stats-col {
+		width: 100%;
+		display: block;
+		padding: 0 0 60px;
+		border-bottom: 1px solid #dfdfdf;
+		margin-bottom: 60px;
+	}
+	.btn {
+		top: 0;
+	}
+	.id-wrap, .ac-wrap {
+    	margin: 0 15%;
+	}
+	.ac-wrap .chart {
+		width: 100%;
+		margin: 0 0 50px;
+	}
+	.secondary-sidebar {
+   		width:100%;
+	}
+	.ss-content {
+    	margin: 0 15%;
+	}
+	.infograph-details h1 {
+		text-transform: uppercase;
+		font-size: 18px !important;
+	}
+	.infograph-labels {
+		float: left;
+		width: 100%;
+		padding-top: 30px;
+	}
+	.label-item {
+		font-size: 16px;
+	}
+	/* Dashboard Screen Styles */
+	
+	/*Performance Screen Styles */
+	.cpm-menu-wrap {
+		padding: 43px 10px 45px;
+	}
+	.cpm-view,.cpm-menu li{
+		font-size: 16px;
+	}
+	.pf-content-wrap .account-infograph {
+		padding: 0 15px 0;
+    }
+	.pf-content-wrap .infograph-labels {
+    	float: left;
+    	clear: left;
+    	padding-top: 30px;
+	}
+	.dp-wrap {
+		padding: 25px 0 0;
+	}
+	.dpm-view,.dpm-menu li{
+		font-size: 16px;
+	}
+	.bs-graph h2 {
+		padding-bottom: 10px;
+	}
+	.bs-stats-detail .chart {
+    	width: 100%;
+	}
+	.bs-stats-detail span {
+		float: left;
+		font-size: 22px;
+	}
+	.pf-content-wrap .account-infograph {
+		padding: 0 2% 0;
+    }
+	.pf-content-wrap .ac-wrap, .pf-content-wrap .id-wrap {
+		margin: 0 5%;
+	}
+	table {
+		border: 0;
+	}
+	thead {
+    	display: none;
+	}
+	tr {
+    	margin-bottom: 62px;
+		float: left;
+	}
+	td.mob-table-head {
+		content: '';
+		float: left;
+		font-size: 18px;
+		color: #727272;
+		font-family: 'ProximaNova-Semibold';
+		width: 100%;
+		background-color: #f5f5f5;
+		padding: 20px;
+		text-align: left;
+		border: 0;
+	}
+	td {
+    	padding: 22px 0 19px 20px;
+		text-align: right;
+		border-right: 0;
+		border-top: 0;
+		border-bottom: 1px solid #dfdfdf;
+		float: left;
+		width: 100%;
+	}
+	td:last-child {
+    	border-bottom: 0;
+	}
+	.mob-th {
+    	display: block;
+    	float: left;
+		font-family: 'ProximaNova-Semibold';
+	}
+	.pf-content-wrap .db-content-view {
+		width: 100%;
+	}
+	.pf-content-wrap .secondary-sidebar {
+		width: 100%;
+	}
+	.pf-content-wrap .secondary-sidebar .ss-content {
+		margin: 0 5%;
+	}
+	.pf-content-wrap .account-charts {
+		padding: 25px 0 0;
+	}
+	.bs-stats-detail .chart {
+		width: auto;
+	}
+	.bs-stats-detail span {
+		float: right;
+	}
+	/*Performance Screen Styles */
+	
+	/*Funds Transfer Screen Styles */
+	.tm-content-wrap .db-content-view {
+    	padding: 50px 15px;
+    	max-width: 100%;
+	}
+	.withdrawal-process h1 {
+		font-size: 28px;
+	}
+	.ac-opt {
+		margin-right: 15px;
+		width: 130px;
+	}
+	.ac-opt h2 {
+		padding: 0 15px;
+	}
+	.withdrawal-amount {
+    	margin-bottom: 150px;
+	}
+	.legal-account-opts {
+		padding-bottom: 50px;
+	}
+	.wp-controls {
+		margin-bottom: 30px;
+	}
+	/*Funds Transfer Screen Styles */
+	
+}
